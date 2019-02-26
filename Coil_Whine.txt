@@ -1,0 +1,4 @@
+1.开始，运行，注意如果是WIN10（可能WIN7以上都需要）需要用管理员权限添加。具体，点WINDOWS键。直接打CMD，然后搜索出来的CMD，右键管理员运行，再复制下面的过去运行。就会显示成功，否则一闪而过，都一般是不成功的。
+reg add HKLM\System\CurrentControlSet\Control\Processor /v Capabilities /t REG_DWORD /d 0x0007e066
+2. 重启电脑
+3. 运行 ThrottleStop 去掉 C1E的勾，然后点保存SAVE。记得按打开。icon红色关闭，绿色打开
